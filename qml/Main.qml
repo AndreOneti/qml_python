@@ -29,10 +29,10 @@ ApplicationWindow {
     }
 
     Person {
-        id: andre
-        name: "Andre"
+        id: person
+        name: "jhon"
         Component.onCompleted: {
-            txt.text += ` ${andre.name}`;
+            txt.text += ` by ${person.name}`;
         }
     }
 }
